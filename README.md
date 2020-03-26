@@ -1,5 +1,3 @@
-# coloredbash
-
 # How to change color of root bash
 
 # Start editin the .bashrc file
