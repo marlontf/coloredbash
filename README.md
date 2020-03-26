@@ -39,7 +39,7 @@ Purple  35
 Brown	  33
 
 
-#Background color codes
+# Background color codes
 
 Black   40
 
