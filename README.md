@@ -22,6 +22,12 @@ PS1='${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[0
 
 PS1='${debian_chroot:+($debian_chroot)}\[\033[01;31m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]$ '
 
+# How this work
+
+\[\033[Z;YY;XXm\]
+
+Where Z is the characters style, YY is the background color and XX is the characters color.
+
 # Color Codes
 
 Black	  30
@@ -56,3 +62,17 @@ Purple  45
 Cyan    46
 
 Gray    47
+
+# Characters Style
+
+Normal 0
+
+Bold 1 makes it brighter
+
+Undescore 4
+
+Blink 5
+
+Inverse 7 Inverse background color
+
+Concealed 8
